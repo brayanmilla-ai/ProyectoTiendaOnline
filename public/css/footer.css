@@ -1,0 +1,87 @@
+footer {
+  padding-left: 0;
+  margin-top: 25px;
+  height: 100px;
+}
+footer.page-footer {
+  bottom: 0;
+  color: #fff;
+}
+.font-small {
+  font-size: 0.9rem;
+}
+.special-color-dark {
+  background-color: #263238 !important;
+}
+.pt-4,
+.py-4 {
+  padding-top: 1.5rem !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+.list-inline-item {
+  display: inline-block;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.btn-floating {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 47px;
+  height: 47px;
+}
+
+.waves-effect {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn-fb {
+  color: #fff;
+  background-color: #3b5998 !important;
+}
+waves-light {
+  display: inline-block;
+}
+footer .footer-copyright {
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgb(30, 40, 45);
+  font-size: 1.9rem;
+  padding: 8px;
+}
+.py-3 {
+  padding-bottom: 1rem !important;
+}
